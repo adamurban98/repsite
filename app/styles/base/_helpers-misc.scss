@@ -10,6 +10,10 @@
     display: inline;
 }
 
+.nodec{
+    text-decoration: none;
+}
+
 .content-sm {
     padding-top: $content-sm;
     padding-bottom: $content-sm;
@@ -23,10 +27,6 @@
 .content-lg {
     padding-top: $content-lg;
     padding-bottom: $content-lg;
-}
-
-.top-border {
-    border-top: 1px solid $color-gallery;
 }
 
 .full-width { @include size(100%, auto); }
